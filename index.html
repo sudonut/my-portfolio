@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Portfolio</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <a href="" class="nav-link">HOME</a>
+        <a href="" class="nav-link">ABOUT</a>
+        <a href="" class="nav-link">SKILLS</a>
+        <a href="" class="nav-link">PROJECTS</a>
+        <a href="" class="nav-link">CONTACT</a>
+      </nav>
+    </header>
+    <main>
+      <section class="greeting">
+        <h1>I'm Amante McClain</h1>
+        <p>A Web Developer based in Massachusetts</p>
+      </section>
+      <section class="about">
+        <h1 class="title">About Me</h1>
+      </section>
+      <section class="skills">
+        <h1 class="title">Skills</h1>
+        <div class="logos-wrap">
+          <img src="/logos/HTML5.svg" class="logos" />
+          <img src="/logos/CSS3.svg" class="logos" />
+          <img src="/logos/Javascript.svg" class="logos" />
+          <img src="/logos/Sass.svg" class="logos" />
+        </div>
+      </section>
+      <section class="projects">
+        <h1 class="title">Projects</h1>
+        <div class="project-links">
+          <div class="proj" id="proj-1"></div>
+          <div class="proj" id="proj-2"></div>
+          <div class="proj" id="proj-3"></div>
+        </div>
+      </section>
+      <section class="contact">
+        <h1 class="title">Contact</h1>
+        <div class="form-wrap">
+          <form action="" class="contact-form">
+            <div class="input-wrap">
+              Name *
+              <input type="text" class="form-box" />
+            </div>
+            <div class="input-wrap">
+              Email *
+              <input type="email" class="form-box" />
+            </div>
+            <div class="input-wrap">
+              Subject
+              <input type="text" class="form-box" />
+            </div>
+            <div class="input-wrap msg-wrap">
+              Message *
+              <textarea type="text" class="form-box" id="message"></textarea>
+            </div>
+            <button type="submit" id="submit">SUBMIT</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="script/script.js" async defer></script>
+  </body>
+</html>

@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.navigation {
+  position: fixed;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #262a2b;
+}
+
+.nav-link {
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  -webkit-transition: 0.6ss;
+  transition: 0.6ss;
+  color: orange;
+}
+
+main {
+  background: #181a1b;
+  height: 100%;
+}
+
+.greeting {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 2.8rem;
+  line-height: 2;
+}
+
+.title {
+  font-size: 2rem;
+  padding-left: 16%;
+  padding-top: 2%;
+}
+
+.about {
+  height: 55%;
+  background: #262a2b;
+}
+
+.skills {
+  height: 50%;
+  background: #222527;
+}
+
+.logos {
+  height: 6rem;
+}
+
+.logos-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 65%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projects {
+  height: 68%;
+  background: #262a2b;
+}
+
+.project-links {
+  height: 94%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.proj {
+  height: 60%;
+  width: 22%;
+}
+
+#proj-1 {
+  background: cadetblue;
+}
+
+#proj-2 {
+  background: chartreuse;
+}
+
+#proj-3 {
+  background: crimson;
+}
+
+.contact {
+  height: 100%;
+  background: #181a1b;
+}
+
+.form-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 90%;
+  width: 100%;
+  font-size: 1.4rem;
+}
+
+.contact-form {
+  height: 88%;
+}
+
+.contact-form > div {
+  font-size: 1.4rem;
+}
+
+.input-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 5%;
+}
+
+.form-box {
+  border: none;
+  background: #282b2c;
+  height: 3rem;
+  width: 28rem;
+  margin-left: 5rem;
+  font-size: 1.2rem;
+  padding-left: 10px;
+}
+
+textarea {
+  resize: none;
+  padding-top: 5px;
+}
+
+.msg-wrap {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#message {
+  height: 335px;
+}
+
+#submit {
+  padding: 3% 4% 3% 4%;
+  margin-left: 29%;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  background: black;
+}
+/*# sourceMappingURL=style.css.map */
