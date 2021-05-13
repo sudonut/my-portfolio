@@ -60,10 +60,43 @@ main {
   line-height: 2;
 }
 
+.about-wrap {
+  margin-left: 24%;
+  margin-right: 24%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60%;
+  font-size: 1.7rem;
+}
+
+.about-text {
+  width: 50%;
+}
+
+#download {
+  padding: 3% 4% 3% 4%;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  background: black;
+}
+
 .title {
-  font-size: 2rem;
-  padding-left: 16%;
   padding-top: 2%;
+  padding-bottom: 2px;
+  margin-left: 18%;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: gray;
+  font-size: 2rem;
+  display: inline-block;
 }
 
 .about {
@@ -103,6 +136,8 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -115,8 +150,8 @@ main {
 }
 
 .proj {
-  height: 60%;
-  width: 22%;
+  min-height: 264px;
+  min-width: 287px;
 }
 
 #proj-1 {
@@ -133,7 +168,7 @@ main {
 
 .contact {
   height: 100%;
-  background: #181a1b;
+  background: #222527;
 }
 
 .form-wrap {
