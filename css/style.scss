@@ -37,11 +37,10 @@ body {
 
 main {
   background: $primary-color;
-  height: 100%;
 }
 
 .greeting {
-  height: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,8 +54,8 @@ main {
 }
 
 .about-wrap {
-  margin-left: 14%;
-  margin-right: 14%;
+  margin-left: 12%;
+  margin-right: 13%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -66,14 +65,29 @@ main {
 }
 
 .about-text {
-  width: 50%;
+  width: 47%;
+  font-weight: 300;
 }
+
+@media (max-width: 1751px) {
+  .about-wrap {
+    margin-left: 0%;
+    margin-right: 0%;
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }
+
+  .about-text {
+    width: 38%;
+  }
+}
+
 
 .button-wrap {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 30%;
+  width: 21%;
   height: 56%;
 }
 
@@ -94,6 +108,26 @@ a:hover {
   padding-left: 26px;
 }
 
+@media (max-width: 1333px) {
+  .button {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 1027px) {
+  .about-text {
+    font-size: 1.2rem;
+    width: 40%;
+  }
+}
+
+@media (max-width: 909px) {
+  .button-wrap {
+    width: 26%;
+    height: 49%;
+  }
+}
+
 .title {
   display: flex;
   justify-content: center;
@@ -105,12 +139,12 @@ a:hover {
 }
 
 .about {
-  height: 55%;
+  height: 55vh;
   background: $secondary-color;
 }
 
 .skills {
-  height: 50%;
+  height: 50vh;
   background: $third-color;
 }
 
@@ -126,7 +160,7 @@ a:hover {
 }
 
 .projects {
-  height: 68%;
+  height: 68vh;
   background: $secondary-color;
 }
 
@@ -164,22 +198,45 @@ a:hover {
 }
 
 .contact {
-  height: 100%;
+  height: 81vh;
   background: $third-color;
+}
+
+.goodbye-wrap {
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+  font-size: 1.3rem;
 }
 
 .form-wrap {
   display: flex;
-  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  height: 90%;
+  height: 48%;
   width: 100%;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
+}
+
+.contact-details {
+  height: 47%;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  padding-bottom: 16px;
+}
+
+.contact-item > i {
+  padding-right: 15px;
 }
 
 .contact-form {
-  height: 88%;
+  height: 58%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 27%;
 }
 
 .contact-form > div {
@@ -187,33 +244,33 @@ a:hover {
 }
 
 .input-wrap {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding-bottom: 5%;
 }
 
+#email {
+  margin-left: 6px;
+}
+
 .form-box {
+  height: 100%;
   border: none;
   background: #282b2c;
-  height: 3rem;
-  width: 28rem;
-  margin-left: 5rem;
   font-size: 1.2rem;
   padding-left: 10px;
 }
 
 textarea {
+  width: 100%;
   resize: none;
   padding-top: 5px;
 }
 
 .msg-wrap {
-  align-items: flex-start;
+  grid-column-start: span 2;
 }
 
 #message {
-  height: 335px;
+  height: 157px;
 }
 
 #submit {
@@ -223,4 +280,53 @@ textarea {
   border-radius: 5px;
   font-size: 1.5rem;
   background: black;
+  grid-column: 2;
+}
+
+.social-links {
+  background: $primary-color;
+  height: 18vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 4rem;
+}
+
+@media (max-width: 1070px) {
+  .form-wrap {
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    height: 85%;
+  }
+
+  .contact-details {
+    height: 38%;
+  }
+
+  .contact-form {
+    height: 47%;
+    margin-top: 20px;
+    grid-template-rows: 24%;
+  }
+
+  .input-wrap {
+    padding-bottom: 0;
+  }
+
+  .form-box {
+    height: 60%;
+  }
+
+  #submit {
+    width: 50%;
+    height: 80%;
+    margin-left: 50%;
+    font-size: 1.2rem;
+  }
+
+  .goodbye-wrap > p {
+    width: 59%;
+    text-align: center;
+  }
 }
