@@ -1,6 +1,7 @@
 $primary-color: #181a1b;
 $secondary-color: #262a2b;
 $third-color: #222527;
+$head-color: orange;
 
 * {
   margin: 0;
@@ -31,7 +32,7 @@ body {
 
 .nav-link:hover {
   transition: 0.6ss;
-  color: orange;
+  color: $head-color;
 }
 
 main {
@@ -49,37 +50,58 @@ main {
   line-height: 2;
 }
 
+.sub-head {
+  color: $head-color;
+}
+
 .about-wrap {
-  margin-left: 24%;
-  margin-right: 24%;
+  margin-left: 14%;
+  margin-right: 14%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  height: 60%;
-  font-size: 1.7rem;
+  height: 69%;
+  font-size: 1.5rem;
+  line-height: 1.5;
 }
 
 .about-text {
   width: 50%;
 }
 
-#download {
-  padding: 3% 4% 3% 4%;
+.button-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  height: 56%;
+}
+
+.button {
+  padding: 5% 4% 5% 4%;
   border: none;
   border-radius: 5px;
   font-size: 1.5rem;
   background: black;
+  text-align: center;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.fa-download {
+  padding-left: 26px;
 }
 
 .title {
+  display: flex;
+  justify-content: center;
   padding-top: 2%;
   padding-bottom: 2px;
-  margin-left: 18%;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
   border-color: gray;
   font-size: 2rem;
-  display: inline-block;
+  font-weight: 300;
 }
 
 .about {
@@ -125,7 +147,7 @@ main {
 }
 
 #proj-1 {
-  background: cadetblue;
+  background: grey;
   // background: url(/imgs/clock.jpg);
   // background-position: center;
   // background-size: contain;
@@ -134,11 +156,11 @@ main {
 }
 
 #proj-2 {
-  background: chartreuse;
+  background: grey;
 }
 
 #proj-3 {
-  background: crimson;
+  background: grey;
 }
 
 .contact {

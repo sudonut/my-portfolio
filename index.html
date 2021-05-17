@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
+    <script src="https://kit.fontawesome.com/37cb0d4f63.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
@@ -26,18 +27,18 @@
     <main>
       <section class="greeting">
         <h1>Hi, I'm Amante!</h1>
-        <p>Web Developer</p>
+        <p class="sub-head">Web Developer</p>
       </section>
       <section class="about">
         <h1 class="title">About Me</h1>
         <div class="about-wrap">
-          <p class="about-text">I'm Amante, a web developer based in Massachusetts
-            I started developing when I was very young with webs
-            I'm constantly looking for ways to improve and become a 
-            better develeoper, I have a lot to learn and look forward 
-            to the future.
+          <p class="about-text">Hello there! I'm a Developer
+            currently locacted in Massachusetts who loves creating things for the web. I enjoy trying to figure out how and why things work the way they do. When I'm not programming, you'll find me building 3D assets in Blender or spending my time voice acting.
           </p>
-          <button id="download">Download Resume</button>
+          <div class="button-wrap">
+            <a class="button" id="download">Download Resume<i class="fas fa-download"></i></a>
+            <a class="button">Get in Touch</a>
+          </div>
         </div>
       </section>
       <section class="skills">
@@ -68,10 +69,6 @@
             <div class="input-wrap">
               Email *
               <input type="email" class="form-box" />
-            </div>
-            <div class="input-wrap">
-              Subject
-              <input type="text" class="form-box" />
             </div>
             <div class="input-wrap msg-wrap">
               Message *
