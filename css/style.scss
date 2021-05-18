@@ -7,7 +7,7 @@ $head-color: orange;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: white;
 }
 
@@ -82,7 +82,6 @@ main {
   }
 }
 
-
 .button-wrap {
   display: flex;
   flex-direction: column;
@@ -98,6 +97,7 @@ main {
   font-size: 1.5rem;
   background: black;
   text-align: center;
+  text-decoration: none;
 }
 
 a:hover {
@@ -140,12 +140,11 @@ a:hover {
   }
 }
 
-
 @media (max-width: 600px) {
   .about-text {
     font-size: 1.1rem;
   }
-  
+
   .button-wrap {
     width: 77%;
   }
@@ -201,8 +200,6 @@ a:hover {
   min-width: 287px;
 }
 
-
-
 #proj-1 {
   background: grey;
   // background: url(/imgs/clock.jpg);
@@ -237,7 +234,7 @@ a:hover {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 48%;
+  height: 66%;
   width: 100%;
   font-size: 1.1rem;
 }
@@ -372,7 +369,7 @@ textarea {
   .button {
     font-size: 1.1rem;
   }
-  
+
   .logos-wrap {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -414,7 +411,7 @@ textarea {
 
   .button-wrap {
     width: 87%;
-  }  
+  }
 
   .projects {
     height: 75vh;
@@ -427,7 +424,6 @@ textarea {
 }
 
 @media (max-width: 452px) {
-  
 }
 
 @media (max-width: 414px), (max-height: 780px) {
@@ -447,7 +443,7 @@ textarea {
   .skills {
     height: 66vh;
   }
-  
+
   .projects {
     height: 94vh;
   }
@@ -482,14 +478,13 @@ textarea {
   .contact-details {
     height: 24%;
   }
-  
+
   .social-links {
     font-size: 3rem;
   }
 }
 
 @media (max-width: 375px), (max-height: 667px) {
-
   .project-links {
     height: 92%;
   }
@@ -502,7 +497,6 @@ textarea {
   .contact-form {
     grid-template-rows: 19% 19% 68% 16%;
   }
-  
 }
 
 @media (max-width: 453px) {

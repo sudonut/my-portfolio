@@ -3,7 +3,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: white;
 }
 
@@ -119,6 +119,7 @@ main {
   font-size: 1.5rem;
   background: black;
   text-align: center;
+  text-decoration: none;
 }
 
 a:hover {
@@ -283,7 +284,7 @@ a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 48%;
+  height: 66%;
   width: 100%;
   font-size: 1.1rem;
 }
