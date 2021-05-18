@@ -139,16 +139,40 @@ a:hover {
 }
 
 @media (max-width: 1027px) {
+  .about-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 90%;
+  }
   .about-text {
+    text-align: center;
+    width: 50%;
     font-size: 1.2rem;
-    width: 40%;
+  }
+  .button-wrap {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 64%;
+    height: 14%;
+  }
+  .button {
+    padding: 3% 4% 3% 4%;
   }
 }
 
-@media (max-width: 909px) {
+@media (max-width: 600px) {
+  .about-text {
+    font-size: 1.1rem;
+  }
   .button-wrap {
-    width: 26%;
-    height: 49%;
+    width: 77%;
   }
 }
 
@@ -191,6 +215,25 @@ a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media (max-width: 737px) {
+  .greeting {
+    font-size: 2.1rem;
+  }
+  .about-text {
+    width: 58%;
+  }
+  .button {
+    font-size: 1.1rem;
+  }
+  .logos-wrap {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    justify-items: center;
+  }
 }
 
 .projects {
@@ -309,6 +352,7 @@ a:hover {
   border: none;
   background: #282b2c;
   font-size: 1.2rem;
+  font-weight: lighter;
   padding-left: 10px;
 }
 
