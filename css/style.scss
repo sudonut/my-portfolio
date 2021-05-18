@@ -36,7 +36,7 @@ body {
 }
 
 main {
-  background: $primary-color;
+  background: url(/bgs/beanstalk-dark.png);
 }
 
 .greeting {
@@ -306,7 +306,7 @@ textarea {
 }
 
 .social-links {
-  background: $primary-color;
+  background: url(/bgs/beanstalk-dark.png);
   height: 18vh;
   display: flex;
   justify-content: center;
