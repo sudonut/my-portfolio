@@ -25,6 +25,10 @@ body {
   background: #262a2b;
 }
 
+.navigation .hamburger-menu {
+  display: none;
+}
+
 .nav-link {
   padding: 1rem;
   text-decoration: none;
@@ -467,6 +471,26 @@ textarea {
 }
 
 @media (max-width: 516px) {
+  .navigation {
+    height: 2.6rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+  .navigation .nav-link {
+    display: none;
+  }
+  .navigation .hamburger-menu {
+    padding-right: 2rem;
+    display: block;
+    font-size: 1.4rem;
+  }
+  .navigation .hamburger-menu:hover {
+    cursor: pointer;
+  }
   .about-text {
     width: 83%;
   }
