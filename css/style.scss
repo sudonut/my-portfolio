@@ -11,6 +11,10 @@ $head-color: orange;
   color: white;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   height: 100vh;
   width: 100vw;
@@ -40,6 +44,10 @@ body {
 
 main {
   background: url(/bgs/beanstalk-dark.png);
+}
+
+.section-pad {
+  padding-top: 2%;
 }
 
 .greeting {
@@ -429,7 +437,7 @@ textarea {
 }
 
 .mobile-nav {
-  position: absolute;
+  position: fixed;
   display: hidden;
   height: 0%;
   width: 0%;
@@ -438,7 +446,7 @@ textarea {
   align-items: center;
   flex-direction: column;
   background: #181a1b;
-  transition: width 2s;
+  transition: width 0.5s;
 
   & .nav-link {
     opacity: 0;
@@ -453,7 +461,7 @@ textarea {
   & .nav-link {
     opacity: 1;
     font-size: 1.7rem;
-    transition: 1.3s;
+    transition: 0.8s;
   }
 }
 
@@ -479,6 +487,10 @@ textarea {
 }
 
 @media (max-width: 414px), (max-height: 780px) {
+  .section-pad {
+    padding-top: 7%;
+  }
+
   .greeting {
     font-size: 1.6rem;
   }
