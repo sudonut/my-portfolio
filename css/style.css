@@ -491,6 +491,42 @@ textarea {
   .navigation .hamburger-menu:hover {
     cursor: pointer;
   }
+  .mobile-nav {
+    position: absolute;
+    display: hidden;
+    height: 0%;
+    width: 0%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: #181a1b;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+  }
+  .mobile-nav .nav-link {
+    opacity: 0;
+  }
+  .mobile-nav.open {
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+  }
+  .mobile-nav.open .nav-link {
+    opacity: 1;
+    font-size: 1.7rem;
+    -webkit-transition: 1.3s;
+    transition: 1.3s;
+  }
   .about-text {
     width: 83%;
   }

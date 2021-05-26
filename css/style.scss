@@ -428,6 +428,34 @@ textarea {
   }
 }
 
+.mobile-nav {
+  position: absolute;
+  display: hidden;
+  height: 0%;
+  width: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #181a1b;
+  transition: width 2s;
+
+  & .nav-link {
+    opacity: 0;
+  }
+}
+
+.mobile-nav.open {
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+
+  & .nav-link {
+    opacity: 1;
+    font-size: 1.7rem;
+    transition: 1.3s;
+  }
+}
 
   .about-text {
     width: 83%;
