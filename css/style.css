@@ -254,20 +254,43 @@ a:hover {
 }
 
 .proj {
+  border: 2px solid black;
+  border-radius: 15px;
   min-height: 264px;
-  min-width: 287px;
+  min-width: 334px;
 }
 
 #proj-1 {
   background: grey;
+  background: url(/imgs/clock.png);
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1%;
 }
 
 #proj-2 {
   background: grey;
+  background: url();
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1%;
 }
 
 #proj-3 {
   background: grey;
+  background: url(/imgs/ipAddress.png);
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1%;
 }
 
 .contact {
@@ -394,6 +417,10 @@ textarea {
   font-size: 4rem;
 }
 
+.social-links > a:hover {
+  opacity: 0.7;
+}
+
 @media (max-width: 1070px) {
   .form-wrap {
     -webkit-box-orient: vertical;
@@ -453,8 +480,8 @@ textarea {
     justify-items: center;
   }
   .proj {
-    min-height: 226px;
-    min-width: 243px;
+    min-height: 188px;
+    min-width: 238px;
   }
 }
 
@@ -545,8 +572,8 @@ textarea {
     height: 75vh;
   }
   .proj {
-    min-height: 196px;
-    min-width: 220px;
+    min-height: 167px;
+    min-width: 212px;
   }
 }
 
