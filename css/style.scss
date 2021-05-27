@@ -246,6 +246,45 @@ a:hover {
   max-width: 1%;
 }
 
+.proj-title-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: inherit;
+  width: 100%;
+  font-size: 1.4rem;
+  & .link-container > i, p {
+    color: black;
+  }
+  & * {
+    padding-bottom: 5%;
+    padding-top: 5%;
+    text-decoration: none;
+    opacity: 0;
+  }
+  & .fas {
+    padding-right: 1rem;
+  }
+}
+
+.proj-title-card:hover {
+  background: #181a1b;
+  width: 100%;
+  height: inherit;
+  opacity: 1;
+  transition: 0.6s;
+  & * {
+    transition: 0.6s;
+    opacity: 1;
+  }
+}
+
+.link-container {
+  background: white;
+  display: flex;
+}
+
 .contact {
   height: 81vh;
   background: $third-color;
