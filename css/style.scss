@@ -321,58 +321,6 @@ a:hover {
   padding-right: 15px;
 }
 
-.contact-form {
-  height: 58%;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 27%;
-}
-
-.contact-form > div {
-  font-size: 1.4rem;
-}
-
-.input-wrap {
-  padding-bottom: 5%;
-}
-
-#email {
-  margin-left: 6px;
-}
-
-.form-box {
-  height: 100%;
-  border: none;
-  background: #282b2c;
-  font-size: 1.2rem;
-  font-weight: lighter;
-  padding-left: 10px;
-}
-
-textarea {
-  width: 100%;
-  resize: none;
-  padding-top: 5px;
-}
-
-.msg-wrap {
-  grid-column-start: span 2;
-}
-
-#message {
-  height: 157px;
-}
-
-#submit {
-  padding: 3% 4% 3% 4%;
-  margin-left: 29%;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.5rem;
-  background: black;
-  grid-column: 2;
-}
-
 .social-links {
   background: url(/bgs/beanstalk-dark.png);
   height: 18vh;
@@ -396,27 +344,6 @@ textarea {
 
   .contact-details {
     height: 38%;
-  }
-
-  .contact-form {
-    height: 47%;
-    margin-top: 20px;
-    grid-template-rows: 24%;
-  }
-
-  .input-wrap {
-    padding-bottom: 0;
-  }
-
-  .form-box {
-    height: 60%;
-  }
-
-  #submit {
-    width: 50%;
-    height: 80%;
-    margin-left: 50%;
-    font-size: 1.2rem;
   }
 
   .goodbye-wrap > p {
@@ -457,22 +384,6 @@ textarea {
 @media (max-width: 646px) {
   .contact-details {
     height: 30%;
-  }
-
-  .contact-form {
-    grid-template-rows: 22% 22% 53% 15%;
-  }
-
-  .input-wrap {
-    grid-column-start: span 2;
-  }
-
-  #email {
-    margin: 0;
-  }
-
-  #submit {
-    font-size: 1rem;
   }
 }
 
@@ -595,11 +506,6 @@ textarea {
     height: 79%;
     font-size: 1rem;
   }
-
-  .contact-form {
-    grid-template-rows: 21% 22% 61% 16%;
-  }
-
   .contact-details {
     height: 24%;
   }
@@ -617,10 +523,6 @@ textarea {
   .proj {
     min-height: 159px;
     min-width: 188px;
-  }
-
-  .contact-form {
-    grid-template-rows: 19% 19% 68% 16%;
   }
 }
 
