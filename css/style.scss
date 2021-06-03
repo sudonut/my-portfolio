@@ -286,7 +286,7 @@ a:hover {
 }
 
 .contact {
-  height: 81vh;
+  height: 67vh;
   background: $third-color;
   // background: url(/bgs/beanstalk-dark.png);
 }
@@ -308,17 +308,24 @@ a:hover {
 }
 
 .contact-details {
-  height: 47%;
+  width: 80%;
+  height: 36%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .contact-item {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
   padding-bottom: 16px;
-}
-
-.contact-item > i {
-  padding-right: 15px;
+  & .fas {
+    font-size: 3rem;
+  }
+  & p {
+    font-size: 1.4rem;
+  }
 }
 
 .social-links {
@@ -354,6 +361,15 @@ a:hover {
   .title {
     padding-top: 4%;
   }
+
+  .contact-details {
+    flex-direction: column;
+    height: 86%;
+  }
+
+  .contact-item {
+    height: 22%;
+  }
 }
 
 @media (max-width: 737px) {
@@ -381,11 +397,11 @@ a:hover {
   }
 }
 
-@media (max-width: 646px) {
-  .contact-details {
-    height: 30%;
-  }
-}
+// @media (max-width: 646px) {
+//   .contact-details {
+//     height: 30%;
+//   }
+// }
 
 @media (max-width: 516px) {
   .navigation {
@@ -453,6 +469,15 @@ a:hover {
     min-height: 167px;
     min-width: 212px;
   }
+
+  .contact-item {
+    & .fas {
+      font-size: 2rem;
+    }
+    & p {
+      font-size: 1.2rem;
+    }
+  }
 }
 
 @media (max-width: 452px) {
@@ -505,9 +530,6 @@ a:hover {
     justify-content: space-around;
     height: 79%;
     font-size: 1rem;
-  }
-  .contact-details {
-    height: 24%;
   }
 
   .social-links {

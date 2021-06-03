@@ -350,7 +350,7 @@ a:hover {
 }
 
 .contact {
-  height: 81vh;
+  height: 67vh;
   background: #222527;
 }
 
@@ -381,21 +381,39 @@ a:hover {
 }
 
 .contact-details {
-  height: 47%;
+  width: 80%;
+  height: 36%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .contact-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   padding-bottom: 16px;
 }
 
-.contact-item > i {
-  padding-right: 15px;
+.contact-item .fas {
+  font-size: 3rem;
+}
+
+.contact-item p {
+  font-size: 1.4rem;
 }
 
 .social-links {
@@ -441,6 +459,16 @@ a:hover {
   .title {
     padding-top: 4%;
   }
+  .contact-details {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 86%;
+  }
+  .contact-item {
+    height: 22%;
+  }
 }
 
 @media (max-width: 737px) {
@@ -463,12 +491,6 @@ a:hover {
   .proj {
     min-height: 188px;
     min-width: 238px;
-  }
-}
-
-@media (max-width: 646px) {
-  .contact-details {
-    height: 30%;
   }
 }
 
@@ -542,6 +564,12 @@ a:hover {
     min-height: 167px;
     min-width: 212px;
   }
+  .contact-item .fas {
+    font-size: 2rem;
+  }
+  .contact-item p {
+    font-size: 1.2rem;
+  }
 }
 
 @media (max-width: 414px), (max-height: 780px) {
@@ -585,9 +613,6 @@ a:hover {
         justify-content: space-around;
     height: 79%;
     font-size: 1rem;
-  }
-  .contact-details {
-    height: 24%;
   }
   .social-links {
     font-size: 3rem;
