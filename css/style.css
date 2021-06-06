@@ -44,6 +44,10 @@ body {
   color: orange;
 }
 
+.active {
+  color: orange;
+}
+
 main {
   background: url(/bgs/beanstalk-dark.png);
 }

@@ -42,6 +42,10 @@ body {
   color: $head-color;
 }
 
+.active {
+  color: $head-color;
+}
+
 main {
   background: url(/bgs/beanstalk-dark.png);
 }
