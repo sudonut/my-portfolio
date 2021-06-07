@@ -115,11 +115,11 @@ main {
   text-decoration: none;
 }
 
-a:hover {
+a:hover *, a:hover {
   cursor: pointer;
   transition: 0.3s;
   color: $head-color;
-}
+} 
 
 .fa-download {
   padding-left: 26px;

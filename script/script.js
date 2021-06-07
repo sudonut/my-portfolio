@@ -7,11 +7,9 @@ function modalToggle() {
 }
 
 const sections = document.querySelectorAll("section[id]");
-
 window.addEventListener("scroll", navHighlight);
 
 function navHighlight() {
-
   // Get current scroll position
   let scrollY = window.pageYOffset;
 
@@ -21,10 +19,10 @@ function navHighlight() {
     const sectionTop = section.offsetTop - 170;
     sectionId = section.getAttribute("id");
 
-    if ( scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+    if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
       document.querySelector(".navigation a[href*=" + sectionId + "]").classList.add("active");
     } else {
       document.querySelector(".navigation a[href*=" + sectionId + "]").classList.remove("active");
     }
-  })
+  });
 }
