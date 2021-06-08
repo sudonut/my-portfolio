@@ -219,6 +219,14 @@ a:hover *, a:hover {
 
 .logos {
   height: 6rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.logos:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  height: 8.3rem;
 }
 
 .logos-wrap {

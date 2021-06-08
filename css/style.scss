@@ -187,6 +187,12 @@ a:hover *, a:hover {
 
 .logos {
   height: 6rem;
+  transition: 0.3s;
+}
+
+.logos:hover {
+  transition: 0.3s;
+  height: 8.3rem;
 }
 
 .logos-wrap {
