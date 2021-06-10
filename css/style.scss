@@ -418,6 +418,7 @@ a:hover *, a:hover {
     height: 2.6rem;
     align-items: center;
     justify-content: end;
+    flex-direction: row-reverse;
 
   & .nav-link {
     display: none;
