@@ -274,7 +274,7 @@ a:hover *, a:hover {
 
 #proj-1 {
   background: grey;
-  background: url(/imgs/test.jpg);
+  background: url(../imgs/test.jpg);
   width: 100%;
   height: auto;
   background-size: cover;
@@ -296,7 +296,7 @@ a:hover *, a:hover {
 
 #proj-3 {
   background: grey;
-  background: url(/imgs/ipAddress.png);
+  background: url(../imgs/ipAddress.png);
   width: 100%;
   height: auto;
   background-size: cover;
@@ -429,7 +429,7 @@ a:hover *, a:hover {
 }
 
 .social-links {
-  background: url(/bgs/beanstalk-dark.png);
+  background: url(../bgs/beanstalk-dark.png);
   height: 18vh;
   display: -webkit-box;
   display: -ms-flexbox;
