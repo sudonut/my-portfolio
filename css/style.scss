@@ -176,12 +176,12 @@ a:hover *, a:hover {
 }
 
 .about {
-  height: 55vh;
+  height: 37rem;
   background: $secondary-color;
 }
 
 .skills {
-  height: 50vh;
+  height: 31rem;
   background: $third-color;
 }
 
@@ -203,7 +203,7 @@ a:hover *, a:hover {
 }
 
 .projects {
-  height: 68vh;
+  height: 46rem;
   background: $secondary-color;
 }
 
@@ -296,7 +296,7 @@ a:hover *, a:hover {
 }
 
 .contact {
-  height: 67vh;
+  height: 42rem;
   background: $third-color;
   // background: url(/bgs/beanstalk-dark.png);
 }
@@ -320,6 +320,7 @@ a:hover *, a:hover {
 .contact-details {
   width: 80%;
   height: 36%;
+  line-height: 1.5;
   display: flex;
   justify-content: space-evenly;
 }
@@ -340,7 +341,7 @@ a:hover *, a:hover {
 
 .social-links {
   background: url(../bgs/beanstalk-dark.png);
-  height: 18vh;
+  height: 11rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -393,6 +394,11 @@ a:hover *, a:hover {
 
   .button {
     font-size: 1.1rem;
+  }
+
+  .button-wrap {
+    flex-direction: column-reverse;
+    height: 25%;
   }
 
   .logos-wrap {
@@ -466,10 +472,6 @@ a:hover *, a:hover {
     width: 87%;
   }
 
-  .projects {
-    height: 75vh;
-  }
-
   .proj {
     min-height: 167px;
     min-width: 212px;
@@ -497,22 +499,6 @@ a:hover *, a:hover {
     font-size: 1.6rem;
   }
 
-  .about {
-    height: 62vh;
-  }
-
-  .button-wrap {
-    flex-direction: column-reverse;
-    height: 28%;
-  }
-
-  .skills {
-    height: 66vh;
-  }
-
-  .projects {
-    height: 94vh;
-  }
 
   .project-links {
     height: 90%;
@@ -521,10 +507,6 @@ a:hover *, a:hover {
   .proj {
     min-height: 189px;
     min-width: 208px;
-  }
-
-  .contact {
-    height: 100vh;
   }
 
   .goodbye-wrap {
