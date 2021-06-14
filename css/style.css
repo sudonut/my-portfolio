@@ -395,7 +395,7 @@ a:hover *, a:hover {
 .contact-details {
   width: 80%;
   height: 36%;
-  line-height: 1.5;
+  line-height: 0.5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -422,8 +422,8 @@ a:hover *, a:hover {
 }
 
 .contact-item .fas {
-  font-size: 3rem;
-  margin-bottom: 7%;
+  font-size: 2.3rem;
+  margin-bottom: 1%;
 }
 
 .contact-item p {
@@ -479,6 +479,7 @@ a:hover *, a:hover {
         -ms-flex-direction: column;
             flex-direction: column;
     height: 86%;
+    line-height: 2rem;
   }
   .contact-item {
     height: 22%;

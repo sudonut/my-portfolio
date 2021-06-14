@@ -320,7 +320,7 @@ a:hover *, a:hover {
 .contact-details {
   width: 80%;
   height: 36%;
-  line-height: 1.5;
+  line-height: 0.5;
   display: flex;
   justify-content: space-evenly;
 }
@@ -332,8 +332,8 @@ a:hover *, a:hover {
   justify-content: space-evenly;
   padding-bottom: 16px;
   & .fas {
-    font-size: 3rem;
-    margin-bottom: 7%;
+    font-size: 2.3rem;
+    margin-bottom: 1%;
   }
   & p {
     font-size: 1.4rem;
@@ -377,6 +377,7 @@ a:hover *, a:hover {
   .contact-details {
     flex-direction: column;
     height: 86%;
+    line-height: 2rem;
   }
 
   .contact-item {
