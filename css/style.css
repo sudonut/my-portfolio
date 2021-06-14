@@ -324,15 +324,15 @@ a:hover *, a:hover {
   font-size: 1.4rem;
 }
 
-.proj-title-card .link-container > i, .proj-title-card p {
-  color: black;
-}
-
 .proj-title-card * {
   padding-bottom: 5%;
   padding-top: 5%;
   text-decoration: none;
   opacity: 0;
+}
+
+.proj-title-card a, .proj-title-card h4 {
+  visibility: hidden;
 }
 
 .proj-title-card .fas {
@@ -346,6 +346,10 @@ a:hover *, a:hover {
   opacity: 1;
   -webkit-transition: 0.6s;
   transition: 0.6s;
+}
+
+.proj-title-card:hover a, .proj-title-card:hover h4 {
+  visibility: visible;
 }
 
 .proj-title-card:hover * {
@@ -453,6 +457,15 @@ a:hover *, a:hover {
 }
 
 @media (max-width: 1070px) {
+  .proj-title-card {
+    background: rgba(24, 26, 27, 0.53);
+  }
+  .proj-title-card * {
+    opacity: 1;
+  }
+  .proj-title-card a, .proj-title-card h4 {
+    visibility: visible;
+  }
   .form-wrap {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -513,6 +526,10 @@ a:hover *, a:hover {
   .proj {
     min-height: 188px;
     min-width: 238px;
+  }
+  .proj-title-card {
+    border-radius: 10px;
+    font-size: 0.925rem;
   }
 }
 
