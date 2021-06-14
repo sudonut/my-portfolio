@@ -274,7 +274,7 @@ a:hover *, a:hover {
 
 #proj-1 {
   background: grey;
-  background: url(../imgs/test.jpg);
+  background: url(../imgs/todolist.png);
   width: 100%;
   height: auto;
   background-size: cover;
@@ -285,7 +285,7 @@ a:hover *, a:hover {
 
 #proj-2 {
   background: grey;
-  background: url();
+  background: url(../imgs/clock.png);
   width: 100%;
   height: auto;
   background-size: cover;
@@ -423,6 +423,7 @@ a:hover *, a:hover {
 
 .contact-item .fas {
   font-size: 3rem;
+  margin-bottom: 7%;
 }
 
 .contact-item p {
