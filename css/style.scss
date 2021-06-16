@@ -27,6 +27,7 @@ body {
   display: flex;
   justify-content: center;
   background: $secondary-color;
+  z-index: 9999;
   & .hamburger-menu {
     display: none;
   }
@@ -332,7 +333,6 @@ a:hover *, a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  padding-bottom: 16px;
   & .fas {
     font-size: 2.3rem;
     margin-bottom: 1%;

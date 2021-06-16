@@ -27,6 +27,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   background: #262a2b;
+  z-index: 9999;
 }
 
 .navigation .hamburger-menu {
@@ -422,7 +423,6 @@ a:hover *, a:hover {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  padding-bottom: 16px;
 }
 
 .contact-item .fas {
